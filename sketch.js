@@ -73,6 +73,9 @@ function drawFishingHook(x, y) {
   fill(0);
   triangle(x - 20, y-3, x -20 , y , x -17, y+1 );
 
+  fill(255,0,0);
+  ellipse(x,y,20,20);
+
 }
 
 class Wave {
