@@ -42,6 +42,8 @@ function setup() {
 
 function draw() {
   background(0, 0, 80);
+  fill(255)
+  ellipse(150,150,150,150)
 
   for (let wave of waves) {
     wave.update();
